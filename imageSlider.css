@@ -1,0 +1,45 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img
+{
+    width: 900px;
+    height: 500px;
+    display: flex;
+}
+
+.carousel-container
+{
+    width: 50%;
+    margin: auto;
+    overflow: hidden; /*with width = 100% and overflow set to hidden, the images get behind the first image and are stacked on top of each other.*/
+    position: relative;
+}
+
+.carousel-slide
+{
+    display: flex;
+    width: 100%;
+}
+
+#leftBtn
+{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 5%;
+    font-size: 30px;
+    color: white;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.heading
+{
+    text-align: center;
+}
+
